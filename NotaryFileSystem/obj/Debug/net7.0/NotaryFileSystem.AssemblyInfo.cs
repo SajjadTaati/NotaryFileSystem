@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NotaryFileSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ec32a72f8a4258c11f8e054f2ee2a88e216f554")]
 [assembly: System.Reflection.AssemblyProductAttribute("NotaryFileSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NotaryFileSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

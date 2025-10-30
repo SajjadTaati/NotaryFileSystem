@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotaryFileSystem", "NotaryFileSystem.csproj", "{673A582C-6064-4332-B367-FC01E6E7E974}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotaryFileSystem.API", "NotaryFileSystem.API.csproj", "{673A582C-6064-4332-B367-FC01E6E7E974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotaryFileSystem.Domain", "..\NotaryFileSystem.Domain\NotaryFileSystem.Domain.csproj", "{FCB99DC1-B385-4A45-8786-7894DB31B4DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotaryFileSystem.Application", "..\NotaryFileSystem.Application\NotaryFileSystem.Application.csproj", "{9F545D7D-DA6A-456A-8CB0-44866BA85C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotaryFileSystem.Infrastructure", "..\NotaryFileSystem.Infrastructure\NotaryFileSystem.Infrastructure.csproj", "{E687C1AE-382C-4D99-A9B9-4F590F400A53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{673A582C-6064-4332-B367-FC01E6E7E974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{673A582C-6064-4332-B367-FC01E6E7E974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{673A582C-6064-4332-B367-FC01E6E7E974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB99DC1-B385-4A45-8786-7894DB31B4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB99DC1-B385-4A45-8786-7894DB31B4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB99DC1-B385-4A45-8786-7894DB31B4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB99DC1-B385-4A45-8786-7894DB31B4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F545D7D-DA6A-456A-8CB0-44866BA85C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F545D7D-DA6A-456A-8CB0-44866BA85C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F545D7D-DA6A-456A-8CB0-44866BA85C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F545D7D-DA6A-456A-8CB0-44866BA85C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E687C1AE-382C-4D99-A9B9-4F590F400A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E687C1AE-382C-4D99-A9B9-4F590F400A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E687C1AE-382C-4D99-A9B9-4F590F400A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E687C1AE-382C-4D99-A9B9-4F590F400A53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
